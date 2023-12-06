@@ -6,6 +6,9 @@ const allowedCors = [
   'http://localhost:3000',
   'https://localhost:3000',
   'http://sofia.fr.nomoredomainsmonster.ru',
+  'https://sofia.fr.nomoredomainsmonster.ru',
+  'http://api.sofia.fr.nomoredomainsmonster.ru',
+  'https://sofia.fr.nomoredomainsmonster.ru',
 ];
 const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
 
