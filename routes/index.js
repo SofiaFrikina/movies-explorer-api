@@ -34,9 +34,9 @@ router.get('/crash-test', () => {
 
 router.post('/signup', celebrate({
   body: Joi.object().keys({
+    name: Joi.string().min(2).max(30),
     email: Joi.string().email().required(),
     password: Joi.string().required(),
-    name: Joi.string().min(2).max(30),
   }),
 }), createUser);
 router.post('/signin', celebrate({
